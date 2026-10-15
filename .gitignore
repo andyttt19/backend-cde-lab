@@ -1,0 +1,22 @@
+.env 
+# / .env là file chứa cấu hình môi trường, có thể bao gồm khóa bí mật và thông tin kết nối database.
+#  / Git dùng quy tắc này để bỏ qua file .env khi theo dõi các thay đổi thông thường.
+
+__pycache__/
+# Khi Python chạy code, nó có thể tạo thư mục __pycache__/ để lưu các file bytecode .pyc, giúp Python nạp module thuận tiện hơn.
+# Chúng ta không cần đưa các file này lên Git vì chúng có thể được Python tạo lại.
+
+*.py[cod]
+#- * nghĩa là bất kỳ tên file nào.
+#- .pyc là file bytecode Python thường tạo ra khi chạy chương trình.
+#- .pyo là phần mở rộng bytecode tối ưu ở các phiên bản Python cũ.
+#- .pyd thường là module mở rộng của Python trên Windows.
+# Quy tắc này giúp Git bỏ qua các file có đuôi .pyc, .pyo hoặc .pyd.
+
+.venv/
+# .venv/ là thư mục thường dùng để chứa môi trường Python ảo,
+# bao gồm các thư viện được cài đặt cho dự án.
+# Ta không cần đưa cả thư mục này lên Git vì có thể tạo lại từ requirements.txt.
+
+*.db
+# Database SQLite của Lab

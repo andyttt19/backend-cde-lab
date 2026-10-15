@@ -1,0 +1,9 @@
+Flask
+#  / framework Python giúp chúng ta xây dựng backend, tạo các API để mobile app hoặc client gửi request đến.
+
+Python-dotenv
+#  / Python đọc các biến được khai báo trong file .env. & nó giúp chương trình lấy cấu hình từ .env thay vì phải ghi trực tiếp giá trị bí mật vào mã nguồn.
+
+Flask-SQLAlchemy
+# giúp backend làm việc với cơ sở dữ liệu thông qua các model Python.
+
